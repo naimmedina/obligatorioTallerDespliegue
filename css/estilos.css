@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Balatro Font";
+    src: url(../font/balatro.ttf);
+}
+
+:root {
+    --rojo: #cd4644;
+    --azul: #356ea5;
+    --amarillo: #fcda40;
+    --grisOscuro: #111111;
+    --blanco: white;
+}
+
+/* --------------------------------------- */
+* {
+    font-family: "Balatro Font", sans-serif;
+    color: var(--blanco) !important;
+}
+
+body {
+    background-color: #111111;
+}
+
+header img {
+    max-width: 150px;
+}
+
+.button {
+    background-color: var(--rojo);
+    border: 1px solid var(--blanco);
+}
+
+.textoAmarillo {
+    color: var(--amarillo) !important;
+}
+
+.sectionPadding {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+#portada {
+    background-image: url(../img/banner.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#sobreElJuego img {
+    border: 3px solid var(--blanco);
+}
+
+#sobreElJuego {
+    margin: 0 auto !important;
+}
+
+#comodines {
+    background-image: url(../img/comodines.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#unirme {
+    background-image: url(../img/unirme.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#unirme img {
+    border: 2px solid var(--blanco);
+}
